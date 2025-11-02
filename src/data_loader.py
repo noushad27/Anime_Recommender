@@ -13,9 +13,9 @@ class AnimeDataLoader:
         missing_cols = required_cols - set(df.columns)
         if missing_cols:
             raise ValueError(f"Missing coloums in CSV file: {missing_cols}")
-        df=[Combined_info] =(
-            "Title: " + df['Name'] + "Overview:" +df["sypnopsis"] + "Genres: " + df['Genres']
+        df['combined_info'] = (
+            "Title: " + df['Name'] + " Overview: " + df["sypnopsis"] + " Genres: " + df['Genres']
         )
 
-        df['combined_info'].to_csv(self.processed_csv, index=False)
-        return 
+        df['combined_info'].to_csv(self.processed_csv, index=False, encoding='utf-8')
+        return self.processed_csv

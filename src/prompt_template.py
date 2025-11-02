@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate # type: ignore
+from langchain_core.prompts import ChatPromptTemplate
 
 def get_anime_prompt():
     template = """
@@ -23,4 +23,6 @@ User's question:
 
 Your well-structured response:
 """
-    return PromptTemplate(template=template.strip(), input_variables=["context", "question"])
+
+    # Return only the raw template string — not a PromptTemplate object
+    return template.strip()

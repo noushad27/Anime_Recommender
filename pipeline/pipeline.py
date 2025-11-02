@@ -1,4 +1,4 @@
-from src.vector_store import vectorstoreBuilder
+from src.vectorstoreBuilder import vectorstoreBuilder
 from src.recommender import AnimeRecommender
 from config.config import GROQ_API_KEY, GROQ_MODEL_NAME
 from utils.logger import get_logger
@@ -12,7 +12,8 @@ class AnimeRecommendationPipeline:
         try:
             logger.info("Initializing Recommendation Pipeline...")
 
-            vector_build = vectorstoreBuilder(csv_path=processed_csv , persist_dir=persist_directory)
+            vector_build = vectorstoreBuilder(processed_csv=processed_csv, persist_directory=persist_directory)
+
              
             retriever = vector_build.load_vectorstore().as_retriever()
 
@@ -32,5 +33,5 @@ class AnimeRecommendationPipeline:
             logger.info("Recommendations generated successfully.")
             return recommendations
         except Exception as e:
-            logger.error("Failed to get recommendstion...")
+            logger.error("Failed to get recommendation...")
             raise CustomException(e)

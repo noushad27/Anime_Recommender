@@ -1,0 +1,45 @@
+2025-11-02 12:28:42,061 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:28:42,061 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:28:42,061 - ERROR - Error initializing the pipeline.
+2025-11-02 12:28:42,061 - ERROR - Error initializing the pipeline.
+2025-11-02 12:31:35,592 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:31:35,592 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:31:37,246 - INFO - Use pytorch device_name: cuda:0
+2025-11-02 12:31:37,246 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-02 12:31:41,364 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-11-02 12:31:51,564 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-02 12:31:54,819 - ERROR - Error initializing the pipeline.
+2025-11-02 12:31:54,819 - ERROR - Error initializing the pipeline.
+2025-11-02 12:36:54,046 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:36:54,046 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:36:55,603 - INFO - Use pytorch device_name: cuda:0
+2025-11-02 12:36:55,604 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-02 12:37:02,189 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-02 12:37:02,451 - ERROR - Error initializing the pipeline.
+2025-11-02 12:37:02,451 - ERROR - Error initializing the pipeline.
+2025-11-02 12:37:28,033 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:37:28,033 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:37:29,605 - INFO - Use pytorch device_name: cuda:0
+2025-11-02 12:37:29,605 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-02 12:37:35,649 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-02 12:37:35,855 - ERROR - Error initializing the pipeline.
+2025-11-02 12:37:35,855 - ERROR - Error initializing the pipeline.
+2025-11-02 12:43:16,576 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:43:16,576 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:43:17,618 - INFO - Use pytorch device_name: cuda:0
+2025-11-02 12:43:17,618 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-02 12:43:25,901 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-02 12:43:26,310 - ERROR - Error initializing the pipeline.
+2025-11-02 12:43:26,310 - ERROR - Error initializing the pipeline.
+2025-11-02 12:45:56,338 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:45:56,338 - INFO - Initializing Recommendation Pipeline...
+2025-11-02 12:45:57,999 - INFO - Use pytorch device_name: cuda:0
+2025-11-02 12:45:57,999 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-02 12:46:05,515 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-02 12:46:06,047 - INFO - Pipeline initialized successfully.
+2025-11-02 12:46:06,047 - INFO - Pipeline initialized successfully.
+2025-11-02 12:47:10,116 - INFO - Received user query: naruto
+2025-11-02 12:47:10,116 - INFO - Received user query: naruto
+2025-11-02 12:47:13,720 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-02 12:47:13,813 - INFO - Recommendations generated successfully.
+2025-11-02 12:47:13,813 - INFO - Recommendations generated successfully.
